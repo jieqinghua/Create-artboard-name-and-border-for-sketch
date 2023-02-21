@@ -1,0 +1,36 @@
+{
+  "author" : "Qinghua Jie",
+  "description" : "Create borders and titles for artboards on current page.",
+  "commands" : [
+    {
+      "script" : "script.js",
+      "name" : "Add artboard border",
+      "handlers" : {
+        "run" : "createborder"
+      },
+      "identifier" : "create border",
+      "shortcut": "cmd shift m",
+    },
+    {
+      "script" : "script.js",
+      "name" : "Add artboard name",
+      "handlers" : {
+        "run" : "createname"
+      },
+      "identifier" : "create name",
+      "shortcut": "cmd shift n",
+    }
+  ],
+  "menu" : {
+    "title" : "Add artboard border and name",
+    "items" : [
+      "create border",
+      "create name"
+    ]
+  },
+  "identifier" : "com.example.sketch.be8bcdc3-61e2-4e78-b1cb-392cd9185424",
+  "version" : "1.0",
+
+  "authorEmail" : "",
+  "name" : "Add artboard border and name"
+}
